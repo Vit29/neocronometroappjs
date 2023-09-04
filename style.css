@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:wght@900&family=Nunito&family=Orbitron&family=Poppins:wght@600&family=Rubik&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e0e0e0;
+}
+
+.contenedor-principal {
+    width: 300px;
+    height: 300px;
+    margin: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+}
+
+.contenedor-interno {
+    width: 80%;
+}
+
+.botones {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@font-face {
+    src: url(font/DS-DIGI.TTF);
+    font-family: 'DS-DIGI';
+}
+
+#cronometro {
+    padding: 20px ;
+    font-size: 60px;
+    user-select: none;
+    color: rgba(255, 0, 0, 0.507);
+    text-shadow: 0px 0px 3px rgba(255, 0, 0, 0.562);
+    font-family: 'DS-DIGI';
+}
+
+.boton {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background: #e0e0e0;
+}
+
+#btn-inicio-pausa.iniciar{
+    border-radius: 20px;
+    color: #504a4a;
+    background: #e0e0e0;
+    box-shadow:  10px 10px 20px #bebebe,
+                -10px -10px 20px #ffffff;
+}
+
+#btn-inicio-pausa.pausa {
+    color: rgba(255, 0, 0, 0.781);
+    text-shadow: 0px 0px 3px rgba(255, 0, 0, 0.753);
+    border-radius: 20px;
+    box-shadow: inset 5px 5px 5px #bebebe,
+                inset -5px -5px 5px #fff;
+}
+
+#btn-reiniciar {
+    color: #504a4a;
+    border-radius: 20px;
+    background: #e0e0e0;
+    box-shadow:  10px 10px 20px #bebebe,
+                -10px -10px 20px #ffffff;
+}
+
+#btn-reiniciar.pausa {
+    color: rgba(255, 0, 0, 0.781);
+    text-shadow: 0px 0px 3px rgba(255, 0, 0, 0.753);
+    border-radius: 20px;
+    box-shadow: inset 5px 5px 5px #bebebe,
+                inset -5px -5px 5px #fff;
+}
